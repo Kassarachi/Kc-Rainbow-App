@@ -1,0 +1,698 @@
+* {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: goldenrod !important;
+}
+
+.background1 {
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.save0 {
+    font-size: xx-large !important;
+    font-size: 50px !important;
+    padding: 0px 10px;
+}
+
+.save {
+    display: grid;
+    place-items: center;
+}
+
+.save .save0 {
+    margin-top: 40px;
+}
+
+.save h5 {
+    padding: 0px 10px;
+}
+
+.save3 {
+    margin-top: 20px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: space-between !important;
+    margin-top: 10px;
+}
+
+.button1 a {
+    margin: 0px 10px;
+}
+
+.button2 a button {
+    font-weight: 800;
+    max-width: 1200px;
+    margin: auto;
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(47, 255, 47, 0.678);
+    border: none;
+}
+
+.button2 a button:hover {
+    background-color: rgba(16, 161, 16, 0.979);
+}
+
+.button3 a button {
+    font-weight: 800;
+    max-width: 1200px;
+    margin: auto;
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.button3 a button:hover {
+    background-color: rgba(16, 161, 16, 0.979);
+}
+
+.testy2 h5 {
+    display: grid;
+    place-items: center;
+    color: green;
+    padding-top: 20px;
+}
+
+.planet2 {
+    margin-top: -30px;
+    width: 100%;
+    height: 70px 0px;
+}
+
+.currencies {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: rgba(121, 191, 59, 0.596);
+}
+
+.currencies h2 {
+    margin-top: 100px;
+}
+
+.currencies1 {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.currencies p {
+    margin-left: -1px;
+    padding-top: 30px;
+}
+
+.top1 {
+    padding: 10px 10px;
+}
+
+.top1.top2 {
+    margin-top: -40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-02 {
+    background-color: rgb(1, 52, 1);
+    max-width: 1300px;
+    height: 80px 0px;
+    border-radius: 40px;
+    margin: 35px auto;
+    margin-top: 100px;
+}
+
+.content {
+    display: grid;
+    place-items: center;
+}
+
+.imagp {
+    display: grid;
+    place-items: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.btn-max1 button {
+    font-weight: 600;
+    height: 48px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: rgba(152, 202, 72, 0.838);
+    border: none;
+    margin-bottom: 50px;
+}
+
+.btn-max1 button:hover {
+    background-color: rgb(188, 234, 114);
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 10px;
+    color: rgb(188, 234, 114);
+}
+
+.contain-03 {
+    color: white;
+    max-width: 550px;
+    margin: auto;
+    padding: 15px 80px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.contain-09 {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+
+.contain-09 h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contain-09 p {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.contain-09 a button {
+    font-weight: 300;
+    height: 48px;
+    width: 280px;
+    border-radius: 25px;
+    background-color: rgb(188, 234, 114);
+    border: none;
+    margin-bottom: 50px;
+    font-size: 12px;
+}
+
+.contain-09 a button:hover {
+    background-color: rgb(166, 239, 48);
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+    margin-top: -110px;
+}
+
+.container-lock {
+    padding: 5px 20px;
+}
+
+.container-lock {
+    width: 83px;
+    height: 85px;
+    background-color: gainsboro;
+    border-radius: 50px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.icon1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: -20px;
+}
+
+.box1 p {
+    max-width: 300px;
+    margin: auto;
+}
+
+.countries {
+    background-color: rgb(244, 243, 243);
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.countries-flag {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0px 80px;
+    padding: 0px 50px;
+    margin-bottom: 50px;
+}
+
+.countries-flag a {
+    color: rgb(43, 42, 42);
+}
+
+.countries-flag img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.countries h4 {
+    margin: 0px 130px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.countries button {
+    margin: 0px 130px;
+    margin-bottom: -110px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(198, 226, 154, 0.867);
+    padding: 3px 8px;
+}
+
+.option-list {
+    background-color: rgb(244, 243, 243);
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.option-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.option-list1 ul {
+    margin: 0px 35px;
+    padding: 0px 30px;
+    list-style: none;
+}
+
+.option-list1 ul li a {
+    color: rgb(48, 47, 47);
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.option-list1 h4 {
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0px 65px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.option-list3 li a {
+    padding: 10px 5px;
+}
+
+.option-list3 li i {
+    font-size: 20px;
+}
+
+.line {
+    margin-top: -50px;
+}
+
+
+/* Sending */
+
+input {
+    outline: none !important;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border: 2px solid black;
+    max-width: 350px;
+    margin: 5px auto;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 5px !important;
+}
+
+.sendForm input {
+    width: 100% !important;
+    border: none !important;
+    outline: none !important;
+    padding-left: 10px !important;
+}
+
+.sendForm select {
+    width: 100%;
+    border: none !important;
+    outline: none !important;
+    padding-left: 10px;
+    background: transparent !important;
+}
+
+.sendForm {
+    background: white;
+    padding: 30px 10px;
+    box-shadow: 0px 4px 6px #00000091;
+    max-width: 400px;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+.sendForm .compare-btn {
+    height: 40px;
+    width: 140px;
+    border: 1px solid black;
+    outline: none !important;
+    background: transparent !important;
+    font-weight: 500;
+    border-radius: 70px;
+    font-size: 14px;
+}
+
+.sendForm .get-started-btn {
+    height: 40px;
+    width: 140px;
+    background: #28f128 !important;
+    border: none !important;
+    outline: none !important;
+    font-weight: 500;
+    border-radius: 70px;
+    font-size: 14px;
+}
+
+.sendForm .sendFormBody {
+    max-width: 350px;
+    margin: auto;
+}
+
+.sendForm .sendFormBody h5 {
+    font-size: 14px;
+    padding: 4px 0px;
+    color: black !important;
+}
+
+.flag-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 5px !important;
+}
+
+.sendForm .sendFormBody .sendForm-footer p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: rgb(244, 243, 243);
+    width: 100%;
+    padding: 17px 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.footer1 ul {
+    list-style: none;
+}
+
+.footer1 ul li a {
+    color: rgb(48, 47, 47);
+    font-size: 12px;
+}
+
+.footers3 {
+    display: grid;
+    place-items: center;
+    margin-bottom: 50px;
+}
+
+.footers3 h5 {
+    font-size: 13px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.footers3 a {
+    color: rgb(48, 47, 47);
+}
+
+
+/* ----------Media Query------- */
+
+@media only screen and (max-width: 897px) {
+    .save0 {
+        font-size: 35px !important;
+    }
+    .save3 {
+        font-size: 15px !important;
+    }
+    .save1 {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (max-width: 643px) {
+    .save0 {
+        font-size: 27px !important;
+    }
+    .save3 {
+        font-size: 13px !important;
+    }
+    .save1 {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .save0 {
+        font-size: 22px !important;
+    }
+    .save3 {
+        font-size: 12px !important;
+    }
+    .save1 {
+        font-size: 11px !important;
+    }
+}
+
+@media only screen and (max-width: 427px) {
+    .save0 {
+        font-size: 18px !important;
+    }
+    .save3 {
+        font-size: 11px !important;
+    }
+    .save1 {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 885px) {
+    .box1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        margin: 30px !important;
+    }
+}
+
+@media only screen and (max-width:599px) {
+    .sendForm {
+        margin-top: 0px !important;
+        max-width: 1200px !important;
+    }
+}
+
+@media only screen and (max-width:579px) {
+    .sendForm .sendFormBody {
+        max-width: 800px;
+        margin: auto;
+    }
+    .currencies {
+        padding: 10px 10px !important;
+    }
+}
+
+@media only screen and (max-width:849px) {
+    .currencies {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center !important;
+    }
+    .sendForm {
+        margin-top: 0px !important;
+    }
+    .contain-09 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .option-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width:939px) {
+    .content h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:899px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1200px;
+        margin: auto;
+        margin-top: -10px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:619px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 1200px;
+        margin: auto;
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width:565px) {
+    .content h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:407px) {
+    .content h1 {
+        font-size: 18px;
+    }
+    .contain-03 p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:429px) {
+    .button2 a button {
+        width: 180px;
+        font-size: 12px;
+    }
+    .button3 a button {
+        width: 180px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:395px) {
+    .button1 {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .button1 button {
+        margin: 10px 0px !important;
+    }
+}
+
+@media only screen and (max-width:469px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 1200px;
+        margin: auto;
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width:491px) {
+    .countries h4 {
+        margin: 0px 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .countries button {
+        margin: 0px 130px;
+        margin-bottom: -110px;
+        margin-top: 50px;
+        border: none;
+        border-radius: 20px;
+        background-color: rgba(198, 226, 154, 0.867);
+        width: 120px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:791px) {
+    .option-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:773px) {
+    .countries-flag {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0px 80px;
+        padding: 0px 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:691px) {
+    .countries-flag {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0px 80px;
+        padding: 0px 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:591px) {
+    .countries-flag {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 80px;
+        padding: 0px 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:553px) {
+    .countries-flag {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 80px;
+        padding: 0px 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:611px) {
+    .option-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* ---X------Media Query----X-- */
