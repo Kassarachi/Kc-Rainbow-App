@@ -59,7 +59,7 @@
                         <a class="nav-link" href="#">Help</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="assets/img/united-states-removebg-preview.png" width="40%" height="20vh" alt=""> US</a>
+                        <a class="nav-link" href="#"><img src="assets/img/united-states-removebg-preview.png" width="20px" height="20px" alt=""> US</a>
                     </li>
                     <li><a href=""><button class="btn btn-outline-success" type="submit">Register</button></a>
                     </li>
@@ -969,7 +969,7 @@
                 return state.text;
             }
 
-            var imagePath = "flags/" + state.text.toLowerCase() + ".png";
+            var imagePath = "assets/flags/" + state.text.toLowerCase() + ".png";
             console.log(imagePath)
             var $state = $(
                 '<span><img class="flag-icon" src="' + imagePath + '" /> ' + state.text + '</span>'
